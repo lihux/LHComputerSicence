@@ -22,6 +22,8 @@
 		9C53F44D22AB5AE000984455 /* LHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44C22AB5AE000984455 /* LHNavigationController.swift */; };
 		9C53F44F22AB5B0500984455 /* LHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44E22AB5B0500984455 /* LHButton.swift */; };
 		9C53F45122AB5B2500984455 /* LHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F45022AB5B2500984455 /* LHLabel.swift */; };
+		9C53F45322AB9BE400984455 /* LHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F45222AB9BE400984455 /* LHView.swift */; };
+		9C53F45522AB9BF100984455 /* LHContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F45422AB9BF100984455 /* LHContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		9C53F44C22AB5AE000984455 /* LHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHNavigationController.swift; sourceTree = "<group>"; };
 		9C53F44E22AB5B0500984455 /* LHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHButton.swift; sourceTree = "<group>"; };
 		9C53F45022AB5B2500984455 /* LHLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLabel.swift; sourceTree = "<group>"; };
+		9C53F45222AB9BE400984455 /* LHView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHView.swift; sourceTree = "<group>"; };
+		9C53F45422AB9BF100984455 /* LHContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		9C53F43322AB500C00984455 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				9C53F45622AB9C4200984455 /* Settings */,
 				9C53F44322AB521900984455 /* BaseUI */,
 				9C53F44222AB520900984455 /* Extensions */,
 			);
@@ -114,8 +119,17 @@
 				9C53F44C22AB5AE000984455 /* LHNavigationController.swift */,
 				9C53F44E22AB5B0500984455 /* LHButton.swift */,
 				9C53F45022AB5B2500984455 /* LHLabel.swift */,
+				9C53F45222AB9BE400984455 /* LHView.swift */,
+				9C53F45422AB9BF100984455 /* LHContainerView.swift */,
 			);
 			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		9C53F45622AB9C4200984455 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,7 @@
 				9C53F44922AB5AB700984455 /* LHViewController.swift in Sources */,
 				9C53F43722AB507300984455 /* UIView+LHExtension.swift in Sources */,
 				9C53F43522AB504900984455 /* UIColor+LHExtension.swift in Sources */,
+				9C53F45322AB9BE400984455 /* LHView.swift in Sources */,
 				9C53F44722AB5AAC00984455 /* LHCollectionViewCell.swift in Sources */,
 				9C53F45122AB5B2500984455 /* LHLabel.swift in Sources */,
 				9C53F44D22AB5AE000984455 /* LHNavigationController.swift in Sources */,
@@ -200,6 +215,7 @@
 				9C53F44522AB5A9C00984455 /* LHTableViewCell.swift in Sources */,
 				9C53F42422AB441300984455 /* ViewController.swift in Sources */,
 				9C53F44F22AB5B0500984455 /* LHButton.swift in Sources */,
+				9C53F45522AB9BF100984455 /* LHContainerView.swift in Sources */,
 				9C53F42222AB441300984455 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
