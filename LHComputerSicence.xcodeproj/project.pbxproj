@@ -12,6 +12,16 @@
 		9C53F42722AB441300984455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C53F42522AB441300984455 /* Main.storyboard */; };
 		9C53F42922AB441500984455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C53F42822AB441500984455 /* Assets.xcassets */; };
 		9C53F42C22AB441500984455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C53F42A22AB441500984455 /* LaunchScreen.storyboard */; };
+		9C53F43522AB504900984455 /* UIColor+LHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F43422AB504900984455 /* UIColor+LHExtension.swift */; };
+		9C53F43722AB507300984455 /* UIView+LHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F43622AB507300984455 /* UIView+LHExtension.swift */; };
+		9C53F43922AB509D00984455 /* String+LHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F43822AB509D00984455 /* String+LHExtension.swift */; };
+		9C53F44522AB5A9C00984455 /* LHTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44422AB5A9C00984455 /* LHTableViewCell.swift */; };
+		9C53F44722AB5AAC00984455 /* LHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44622AB5AAC00984455 /* LHCollectionViewCell.swift */; };
+		9C53F44922AB5AB700984455 /* LHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44822AB5AB700984455 /* LHViewController.swift */; };
+		9C53F44B22AB5AC200984455 /* LHTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44A22AB5AC200984455 /* LHTableViewController.swift */; };
+		9C53F44D22AB5AE000984455 /* LHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44C22AB5AE000984455 /* LHNavigationController.swift */; };
+		9C53F44F22AB5B0500984455 /* LHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F44E22AB5B0500984455 /* LHButton.swift */; };
+		9C53F45122AB5B2500984455 /* LHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F45022AB5B2500984455 /* LHLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		9C53F42822AB441500984455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C53F42B22AB441500984455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C53F42D22AB441500984455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C53F43422AB504900984455 /* UIColor+LHExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+LHExtension.swift"; sourceTree = "<group>"; };
+		9C53F43622AB507300984455 /* UIView+LHExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LHExtension.swift"; sourceTree = "<group>"; };
+		9C53F43822AB509D00984455 /* String+LHExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LHExtension.swift"; sourceTree = "<group>"; };
+		9C53F44422AB5A9C00984455 /* LHTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHTableViewCell.swift; sourceTree = "<group>"; };
+		9C53F44622AB5AAC00984455 /* LHCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C53F44822AB5AB700984455 /* LHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHViewController.swift; sourceTree = "<group>"; };
+		9C53F44A22AB5AC200984455 /* LHTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHTableViewController.swift; sourceTree = "<group>"; };
+		9C53F44C22AB5AE000984455 /* LHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHNavigationController.swift; sourceTree = "<group>"; };
+		9C53F44E22AB5B0500984455 /* LHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHButton.swift; sourceTree = "<group>"; };
+		9C53F45022AB5B2500984455 /* LHLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 		9C53F42022AB441300984455 /* LHComputerSicence */ = {
 			isa = PBXGroup;
 			children = (
+				9C53F43322AB500C00984455 /* General */,
 				9C53F42122AB441300984455 /* AppDelegate.swift */,
 				9C53F42322AB441300984455 /* ViewController.swift */,
 				9C53F42522AB441300984455 /* Main.storyboard */,
@@ -62,6 +83,39 @@
 				9C53F42D22AB441500984455 /* Info.plist */,
 			);
 			path = LHComputerSicence;
+			sourceTree = "<group>";
+		};
+		9C53F43322AB500C00984455 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9C53F44322AB521900984455 /* BaseUI */,
+				9C53F44222AB520900984455 /* Extensions */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9C53F44222AB520900984455 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C53F43422AB504900984455 /* UIColor+LHExtension.swift */,
+				9C53F43622AB507300984455 /* UIView+LHExtension.swift */,
+				9C53F43822AB509D00984455 /* String+LHExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C53F44322AB521900984455 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				9C53F44422AB5A9C00984455 /* LHTableViewCell.swift */,
+				9C53F44622AB5AAC00984455 /* LHCollectionViewCell.swift */,
+				9C53F44822AB5AB700984455 /* LHViewController.swift */,
+				9C53F44A22AB5AC200984455 /* LHTableViewController.swift */,
+				9C53F44C22AB5AE000984455 /* LHNavigationController.swift */,
+				9C53F44E22AB5B0500984455 /* LHButton.swift */,
+				9C53F45022AB5B2500984455 /* LHLabel.swift */,
+			);
+			path = BaseUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C53F44922AB5AB700984455 /* LHViewController.swift in Sources */,
+				9C53F43722AB507300984455 /* UIView+LHExtension.swift in Sources */,
+				9C53F43522AB504900984455 /* UIColor+LHExtension.swift in Sources */,
+				9C53F44722AB5AAC00984455 /* LHCollectionViewCell.swift in Sources */,
+				9C53F45122AB5B2500984455 /* LHLabel.swift in Sources */,
+				9C53F44D22AB5AE000984455 /* LHNavigationController.swift in Sources */,
+				9C53F43922AB509D00984455 /* String+LHExtension.swift in Sources */,
+				9C53F44B22AB5AC200984455 /* LHTableViewController.swift in Sources */,
+				9C53F44522AB5A9C00984455 /* LHTableViewCell.swift in Sources */,
 				9C53F42422AB441300984455 /* ViewController.swift in Sources */,
+				9C53F44F22AB5B0500984455 /* LHButton.swift in Sources */,
 				9C53F42222AB441300984455 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
